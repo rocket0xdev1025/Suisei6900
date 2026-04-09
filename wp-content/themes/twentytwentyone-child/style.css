@@ -1,0 +1,28 @@
+/**
+ * Theme Name: Twenty Twenty-One Child
+ * Template: twentytwentyone
+ * Version: 1.0.0
+ */
+
+/* Mobile Toggle Button */
+.mobile-menu-toggle {
+  display: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 15px auto;
+  width: 85%;
+  max-width: 220px;
+  box-shadow: 0 4px 15px rgba(118, 75, 162, 0.3);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+  }
+}
